@@ -2,7 +2,7 @@
 ***
 
 ## Data Types: 
-
+***
  **NUMERIC:**  
 <br>
 `x = 1`  Integers _(int)_ is a whole number
@@ -19,7 +19,6 @@
  <br><br>
 `x = "one"` Strings _(str)_ can be used to display characters and are defined by using either single ' ' or double " " quotes  
 <BR>
-
 **BOOLEAN**
 <br>
 Booleans are a datatype that represent either **True** or **False**
@@ -60,7 +59,7 @@ And you can assign the same value to multiple variables at once:
 
 Variables created inside functions are local variables and cannot be called outside the context of that function unless the **global** keyword is used.
 <br>
-```commandline
+``` python
 def example_function():
     x = 1
     global y 
