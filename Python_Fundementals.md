@@ -31,21 +31,21 @@
 
 ### Sequences  
 
-`x = ["apple", "banana", "cherry"]`  [Lists](list1) are defined with square brackets and store multiple values in a single variable and are mutable.
+`x = ["apple", "banana", "cherry"]`  [Lists](#list1) are defined with square brackets and store multiple values in a single variable and are mutable.
 <BR>
 
-`x = ("apple", "banana", "cherry")` [Tuples](tuple1) are defined by parentheses and are similar to lists but are immutable.
+`x = ("apple", "banana", "cherry")` [Tuples](#tuple1) are defined by parentheses and are similar to lists but are immutable.
 <BR>
 
 ### Mapping  
 
-`x = {"name" : "John", "age" : 36}` [Dictionaries](dictionary1) are combinations of keys and value pairs, they are mutable but do not allow duplicate keys.
+`x = {"name" : "John", "age" : 36}` [Dictionaries](#dictionary1) are combinations of keys and value pairs, they are mutable but do not allow duplicate keys.
 <br>
 <BR>
 
 ## Variables: 
 ***
-[Variables](variable1) work as empty containers that can store data assigned to them. 
+[Variables](#variable1) work as empty containers that can store data assigned to them. 
 They are <ins>case-sensitive</ins>. _X_ is **not** the same variable as _x_. They are created when they are assigned a value. 
     
 `x = 1` Numbers  without speech marks  
