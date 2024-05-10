@@ -160,6 +160,41 @@ print(Text1 + Text2 + str(Text3))
 
 ### Escape Characters
 
+## Control Flow
+
+### If & Else statement 
+If statements are used to check a condition, they are often used alongside elif and else, but it can be used as a standalone statement.
+
+```python
+if 5 > 6 or 6 < 10:
+  print("Correct")
+
+```
+Considering each of these conditions are true `Correct` will be printed out; however, if conditions that are not true were to be in the if statement there is no code stating what is supposed to happen. An Else statement can be used to produce a result if the condition in the if statement cannot be met.
+
+```python
+if 5 == 10:
+  print("Correct")
+else:
+  print("Incorrect")
+```
+As 5 is not equal to 10, `Incorrect` will be printed out in this instance
+### Elif Statement
+The elif statement is a combination of both an if and else statement. This is used when you want to have a result when the if statement isn't met but you have more conditions that might give a result outside of an else statement.
+
+```python
+if 5 == 10:
+  print("Correct")
+elif 5 > 4:
+  print("Correct")
+else:
+  print("Incorrect")
+```
+In this instance, `Correct` would be printed out. While 5 is not equal to 10, it is greater than 4 so the code following the elif statement is run and as the else statement cannot be reached. 
+
+## Loops
+
+
 ## Glossary
 <a name="int1"></a>Integer:  
 <a name="float1"></a>Float:  
